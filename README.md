@@ -17,7 +17,31 @@
 ### Consoleの実行ログ
 
 ```
-【ここに書く】
+【sum();
+undefined
+function sum() {
+    var total = 0;
+    for (var counter = 1; counter <= 10; counter++) {
+        total += counter;
+    }
+    window.alert(total);
+}
+undefinedfunction sum(rangeTo) {
+    var total = 0;
+    for (var counter = 1; counter <= rangeTo; counter++) {
+        total += counter;
+    }
+    window.alert(total);
+}
+undefinedfunction sum(rangeFrom, rangeTo) {
+    var total = 0;
+    for (var counter = rangeFrom; counter <= rangeTo; counter++) {
+        total += counter;
+    }
+    window.alert(total);
+}
+undefinedsum(2, 5);
+undefined】
 ```
 
 ### Console以外の動き（もしあれば）
@@ -26,22 +50,41 @@
 
 ### 分かったこと
 
-【ここに書く】
+【なんとなく使い方が分かった】
 
 ### 疑問・分からないこと（もしあれば）
 
-【ここに書く（なければ省略可）】
+【まだ、よく深いところまでわかりません】
 
 --------------------------------------
 
 以下、教科書の自分で読んだ・実行した箇所について書く。
 
-## 4-x ○○ (p.xx)
+## 4-3 (p.83)
 
 ### Consoleの実行ログ
 
 ```
-【ここに書く】
+【if (window.innerWidth < 1000) {
+    window.alert('狭いです');
+} else {
+    window.alert('狭いです');
+}
+undefinevar ampleArray = [];
+undefineddvar examinationScores = [
+    59, 84, 77, 53, 41, 20, 42, 53, 55, 54,
+    36, 48, 64, 70, 45, 54, 42, 50, 49, 53,
+    68, 60, 66, 57, 52, 55, 82, 61, 51, 43,
+    57, 65 ,81, 63, 45
+    function calculateTotal(scores) {
+    var total = 0;
+    for (var index = 0; index < scores. length; index++) {
+        total += scores[index];
+    }
+    return total;
+}
+undefinedexaminationScores[0];   // 情報のテスト結果　(の配列)
+59】
 ```
 
 ### Console以外の動き（もしあれば）
@@ -50,7 +93,7 @@
 
 ### 分かったこと
 
-【ここに書く】
+【自分で書いたものは大体わかりました。】
 
 ### 疑問・分からないこと（もしあれば）
 
